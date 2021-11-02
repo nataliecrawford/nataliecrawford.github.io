@@ -6,15 +6,40 @@ body{
 .assignment{
     display:flex;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     background: lightblue;
+    border-radius: 20px;
 }
 
 .assignment img{
     width:200px;
     padding: 10px;
+    margin: 10px;
+    border: 4px dashed #074366 
+}
+
+.assignment img:hover{
+    border: 4px dashed #FFF
 }
 h1{
+
     color: rgb(54,123,147);
     text-align:center;
+    
+}
+
+h1:hover{
+    color: #FFF;
+    
+}
+
+a{
+    
+    text-decoration: none;
+    color: #074366 
+
+}
+
+a:hover{
+    color: #FFF
 }

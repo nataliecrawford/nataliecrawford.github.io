@@ -3,19 +3,28 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
-.assignment{
+.assignments{
     display:flex;
+    flex-wrap: wrap;
+}
+.assignment{
+    width: 20%;
     padding: 10px;
     margin: 10px;
     background: lightblue;
     border-radius: 20px;
+    padding: 20 px 10 px;
 }
 
 .assignment img{
     width:200px;
+    height: 200px;
     padding: 10px;
     margin: 10px;
-    border: 4px dashed #074366 
+    border: 4px dashed #074366 ;
+    display: block;
+    margin: auto;
+
 }
 
 .assignment img:hover{
@@ -31,6 +40,10 @@ h1{
 h1:hover{
     color: #FFF;
     
+}
+
+h2{
+    text-align: center;
 }
 
 a{
